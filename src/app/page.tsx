@@ -57,7 +57,7 @@ export default function Home() {
     </header>
     <div className='max-w-3xl mx-auto p-6 space-y-6'>
       <h1 className="text-3xl font-bold">{monthNames[month-1]} {day}, {year}</h1>
-      <h2 className='text-xk'>How are you feeling? </h2>
+      <h2 className='text-xl'>How are you feeling? </h2>
       
       <DateComponent date={date} onDateChange={setDate} />
       <MoodPickerComponent selectedMood={selectedMood} onMoodSelect={setSelectedMood} />
