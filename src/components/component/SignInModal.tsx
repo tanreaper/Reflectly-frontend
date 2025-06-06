@@ -100,7 +100,7 @@ export default function SignInModal({ isOpen, onClose }: Readonly<SignInModalPro
                         {isLogin ? "Sign In" : "Sign Up"}
                     </button>
                 </form>
-                <p className="test-sm tet-center pt-2">
+                <p className="text-sm text-center pt-2">
                     {isLogin ? "Don't have an account?" : "Already have an account?"}{" "} 
                     <button className="text-blue-600 cursor-pointer" onClick={() => setIsLogin(!isLogin)}>
                         {isLogin ? "Sign Up" : "Sign In"}
